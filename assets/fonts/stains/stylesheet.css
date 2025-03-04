@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'stain ornaments';
+    src: url('stainornaments-Regular.woff2') format('woff2'),
+        url('stainornaments-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
