@@ -11,7 +11,7 @@
 body {
   /* background-color: rgb(235, 235, 235); */
   font-family: "Lora", serif;
-  background-image: url("/assets/images/website_background.jpg");
+  background-image: url("../assets/images/website_background.jpg");
 }
 
 main {
