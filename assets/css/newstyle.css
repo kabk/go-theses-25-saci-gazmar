@@ -11,7 +11,7 @@
 body {
   /* background-color: rgb(235, 235, 235); */
   font-family: "Lora", serif;
-  background-image: url("../go-theses-25-saci-gazmar/assets/images/website_background.png");
+  background-image: url("/assets/images/website_background.jpg");
 }
 
 main {
