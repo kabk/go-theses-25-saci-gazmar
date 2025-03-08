@@ -39,7 +39,41 @@ h2 {
 #abstract {
 height: 9%;
 width: 50%;
+}
 
+#intro {
+height: 11%;
+width: 63%;
+} 
+
+#chapter-0 {
+height: 30%;
+width: 100%;
+}
+
+#chapter-1 {
+height: 37%;
+width: 100%;
+}
+
+#chapter-2 {
+height: 40%;
+width: 100%;
+}
+
+#chapter-3 {
+height: 37%;
+width: 100%;
+}
+
+#epilogue {
+height: 15%;
+width: 50%;
+}
+
+#bibliography {
+height: 6%;
+width: 22%;
 }
 
 nav {
@@ -161,11 +195,13 @@ span {
 a:any-link:hover {
   color: rgb(17, 0, 255);
   text-decoration: line-through;
+  /* mix-blend-mode: difference; */
 }
 
 a:any-link {
   text-decoration: none;
-  color: rgb(77, 77, 77)
+  color: rgb(77, 77, 77);
+  /* mix-blend-mode: difference; */
 }
 
 .sidenote {
