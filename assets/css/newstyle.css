@@ -11,7 +11,7 @@
 body {
   /* background-color: rgb(235, 235, 235); */
   font-family: "Lora", serif;
-  background-image: url("../assets/images/website_background.jpg");
+  background-image: url("/assets/images/website_background.jpg");
 }
 
 main {
@@ -34,6 +34,12 @@ text-align: center;
 
 h2 {
   font-size: 2rem;
+}
+
+#abstract {
+height: 9%;
+width: 50%;
+
 }
 
 nav {
@@ -61,7 +67,7 @@ section {
 }
 
 section:nth-of-type(1) {
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -194,13 +200,17 @@ img:hover {
   filter: blur(0);
 }
 
-.smudge {
+.noblur {
+  filter: none;
+}
+
+/* .smudge {
   height: 85vh;
   width: 40%;
   filter: none;
   position: relative;
   left: 55%;
-}
+} */
 
 @media screen and (max-width: 780px) {
   /* .margin-note{
