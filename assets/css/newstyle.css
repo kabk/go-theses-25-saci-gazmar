@@ -253,6 +253,11 @@ img:hover {
 } */
 
 @media screen and (max-width: 780px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
   /* .margin-note{
       position:relative;
       padding:0;
