@@ -196,6 +196,7 @@ a:any-link:hover {
   color: rgb(17, 0, 255);
   text-decoration: line-through;
   mix-blend-mode: difference !important;
+  filter: invert(1);
   z-index: 999;
 }
 
@@ -203,6 +204,7 @@ a:any-link {
   text-decoration: none;
   color: rgb(77, 77, 77);
   mix-blend-mode: difference !important;
+  filter: invert(1);
   z-index: 999;
 }
 
