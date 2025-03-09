@@ -253,7 +253,7 @@ img:hover {
   }
 
   body {
-    background-image: none;
+    /* background-image: none; */
     overflow-x: hidden;
     padding-right: 0.3rem;
   }
