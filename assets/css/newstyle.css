@@ -240,7 +240,7 @@ img:hover {
 }
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 900px) {
 
   .page-wrapper {
     padding-right: 0.3rem;
