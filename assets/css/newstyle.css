@@ -242,7 +242,7 @@ img:hover {
 @media screen and (max-width: 780px) {
 
   .page-wrapper {
-    /* padding-left: 0.3rem; */
+    padding-right: 0.3rem;
     overflow-x: hidden;
   }
 
