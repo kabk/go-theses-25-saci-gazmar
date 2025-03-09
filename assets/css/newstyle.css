@@ -195,17 +195,11 @@ span {
 a:any-link:hover {
   color: rgb(17, 0, 255);
   text-decoration: line-through;
-  mix-blend-mode: difference !important;
-  filter: invert(1);
-  z-index: 999;
 }
 
 a:any-link {
   text-decoration: none;
   color: rgb(77, 77, 77);
-  mix-blend-mode: difference !important;
-  filter: invert(1);
-  z-index: 999;
 }
 
 .sidenote {
@@ -244,26 +238,13 @@ img:hover {
   filter: none;
 }
 
-/* .smudge {
-  height: 85vh;
-  width: 40%;
-  filter: none;
-  position: relative;
-  left: 55%;
-} */
 
 @media screen and (max-width: 780px) {
 
   .page-wrapper {
     padding-left: 0.3rem;
+    overflow-x: hidden;
   }
-
-  /* .margin-note{
-      position:relative;
-      padding:0;
-      border:1px solid #F00;
-      border-radius:100%;
-    } */
 
   .smudge {
     left: 0;
