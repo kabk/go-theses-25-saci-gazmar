@@ -343,4 +343,19 @@ img:hover {
     width: 0;
     height: 0;
   }
+
+  #abstract {
+    height: 7%;
+    width: 45%;
+    }
+    
+    #intro {
+    height: 9%;
+    width: 60%;
+    }
+    
+    #bibliography {
+    height: 10%;
+    width: 25%;
+    }
 }
