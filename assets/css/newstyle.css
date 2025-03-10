@@ -335,8 +335,7 @@ img:hover {
     width: 80%;
     float: none;
     margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .block::-webkit-scrollbar {
